@@ -13,7 +13,7 @@ const graph = {
   
   const bfs = (graph, startNode) => {
     let visited = []; // 탐색을 마친 노드들
-    let needVisit = []; // 탐색해야할 노드들
+    let needVisit = []; // 탐색해야할 노드들 
   
     needVisit.push(startNode); // 노드 탐색 시작
 
