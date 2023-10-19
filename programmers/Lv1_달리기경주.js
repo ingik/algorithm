@@ -17,8 +17,6 @@ function solution(players, callings) {
         hashSet.set(prevKey, currentIndex);
     })
     
-    console.log('PLAy', players);
-
     answer = players;
     return answer;
 }
